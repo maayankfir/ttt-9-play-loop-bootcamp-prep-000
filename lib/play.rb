@@ -37,7 +37,6 @@ end
 
 # Define your play method below
 def play(board)
-  move(board, index)
     counter = 0
   until counter == 9
     counter += 1
