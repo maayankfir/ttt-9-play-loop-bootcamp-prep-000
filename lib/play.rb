@@ -39,6 +39,7 @@ end
 def play(board)
   counter = 0
   until counter == 9
+    move(board, index)
     counter += 1
   end
 end
